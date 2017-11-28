@@ -1,4 +1,5 @@
 export { ISignalRConnection } from './services/connection/i.signalr.connection';
+export { ActivatedRouteMock } from './services/testing/activated.route.mock';
 export { SignalRConnectionMock } from './services/testing/signalr.connection.mock';
 export { SignalRConnectionMockManager } from './services/testing/signalr.connection.mock.manager';
 export { ConnectionStatus } from './services/connection/connection.status';
@@ -11,4 +12,3 @@ export { ConnectionTransports } from './services/connection/connection.transport
 export { SignalR } from './services/signalr';
 export { SignalRConfiguration } from './services/signalr.configuration';
 export { SignalRModule } from './modules/signalr-module';
-
